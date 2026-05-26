@@ -77,6 +77,28 @@ a {
     font-weight: 700;
     color: var(--primary);
     letter-spacing: 0.06em;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    line-height: 1;
+}
+
+.icon--brand {
+    font-size: 1.4rem;
+}
+
+.icon--title,
+.icon--card {
+    font-size: 1.55rem;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
 }
 
 .page-header__menu {
@@ -176,6 +198,19 @@ a {
     background: #ffffff;
     border: 1px solid var(--border);
     border-radius: var(--radius);
+}
+
+.section--image .image-container {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 18px;
+}
+
+.section--image .section-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 .section__header {
