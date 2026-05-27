@@ -220,6 +220,24 @@ a {
     object-fit: cover;
 }
 
+.section--audio {
+    text-align: center;
+}
+
+.audio-card {
+    margin-top: 18px;
+    padding: 24px;
+    border-radius: var(--radius);
+    background: linear-gradient(135deg, rgba(122, 60, 200, 0.08), rgba(231, 124, 165, 0.06));
+    border: 1px solid rgba(122, 60, 200, 0.14);
+}
+
+.audio-card audio {
+    width: 100%;
+    max-width: 640px;
+    outline: none;
+}
+
 .section__header {
     margin-bottom: 18px;
 }
