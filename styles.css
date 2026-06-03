@@ -395,6 +395,11 @@ a {
   line-height: 1.6;
 }
 
+.reference-item a {
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
 /* Video Card */
 .video-container {
   max-width: 800px;
